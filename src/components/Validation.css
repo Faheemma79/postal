@@ -1,0 +1,86 @@
+/* Styles for the form container */
+.Formcontainer {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  /* Styles for form elements */
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .label {
+    font-weight: bold;
+  }
+  
+  .Inputfield {
+    display: flex;
+    padding: 10px 14px;
+    align-items: center;
+    gap: var(--1, 8px);
+    align-self: stretch;
+    border-radius: var(--1, 8px);
+background: var(--error-50, #FFFBFA);
+
+/* Shadows/Hover States/Error */
+box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12), 0px 0px 0px 2px rgba(243, 65, 65, 0.40), 0px 2px 5px 0px rgba(243, 65, 65, 0.08);
+  }
+  
+  /* Style the submit button */
+  .Submitbutton{
+    display: inline-flex;
+/* padding: 10px 18px; */
+flex-direction: row;
+justify-content:space-between;
+align-items: flex-start;
+gap: 1px;
+background-color: #C9252C;
+color: var(--primary-white, #FFF);
+/* text-align: center; */
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 20px; 
+max-width: 400px;
+/* background-color: #007bff; */
+color: #fff;
+padding: 10px 20px;
+border: none;
+border-radius: 3px;
+cursor: pointer;
+
+  }
+    
+    
+  
+  .submit-button:hover {
+    background-color: #0056b3;
+  }
+  .navbar{
+    
+    background-color: #FFBC00
+    
+  }
+  .quicklink{
+ display: inline-flex;
+width: 52px;
+height: 20px;
+padding: var(--none, 0px);
+align-items: center;
+gap: 12px;
+flex-shrink: 0;
+border-radius: var(--none, 0px);
+  }
+
+
+  .footerbox{
+    width: 831px;
+height: 2254px;
+flex-shrink: 0;
+border-radius: var(--none, 0px);
+ }
